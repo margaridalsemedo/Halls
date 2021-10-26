@@ -1,0 +1,31 @@
+.duvidas{
+    height: auto;
+    .wrapper{
+        margin: 40px auto;
+        article{
+            text-align: center;
+            color:$light-color;
+            h1{
+                font-size: 70px;
+
+            }
+           
+            .cta{
+                margin: 60px auto;
+                padding: 10px ;
+            }
+        }
+    }
+}
+
+@media (max-width: 350px) {
+
+    .duvidas{
+        .wrapper{
+            margin: 0px auto;
+            .duvidas-img{
+                width: 200%;
+            }
+        }
+    }
+}

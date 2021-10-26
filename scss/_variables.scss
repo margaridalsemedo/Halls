@@ -1,0 +1,52 @@
+
+
+
+.stroke{
+  -webkit-text-stroke: 2px white;
+  color: transparent;
+    &.blue{
+      -webkit-text-stroke: 1px #222053;
+
+    }
+}
+
+.btn{
+ 
+  display:inline-block;
+  padding:0.35em 1.2em;
+  border-radius: 6px;
+  text-transform: uppercase;
+  margin:0.7em;
+  box-sizing: border-box;
+  text-align:center;
+  transition: all 0.2s;
+  font-family: $main-font;
+  font-weight: 900;
+  font-size: 1.2rem;
+  }
+  
+  .dark{
+    border:0.1em solid #FFFFFF;
+    color: $main-color;
+    background-color:$light-color;
+
+      &:hover{
+  color:$light-color;
+  background-color:$main-color;
+
+}
+
+  }
+
+  .light{
+    border:0.1em solid #222053;
+    background-color: $main-color;
+    color: $light-color;
+      &:hover{
+  color:$main-color;
+  background-color:$light-color;
+
+}
+
+
+  }

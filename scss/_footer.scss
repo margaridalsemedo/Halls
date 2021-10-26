@@ -1,0 +1,36 @@
+
+.footer {
+	width: 100%;
+	background: $light-color;
+	display: block;
+ }
+
+ .inner-footer {
+	 width: 95%;
+	 margin: auto;
+	 padding: 30px 10px;
+	 display: flex;
+	 flex-wrap: wrap;
+	 box-sizing: border-box;
+	 justify-content: center;
+ }
+
+.footer-items {
+	width: 20%;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	color: $main-color;
+    text-transform: uppercase;
+    text-align: center;
+    
+
+}
+
+
+
+@media screen and (max-width: 660px) {
+	.footer-items {
+		width: 100%;
+	}
+}
+

@@ -1,0 +1,155 @@
+$main-color: #222053;
+$light-main-color: #00A0E6;
+$secondary-color: #C30067;
+$dark-color:#000; 
+$light-color:#fff;
+
+$main-font: 'azo_sansblack';
+$tittle-font: 'hey_octoberregular';
+* {
+  box-sizing: border-box;
+}
+
+body{
+    font-family: $main-font;
+    font-size: 16px;
+    background-color: $main-color;
+    background-image: url(../img/background_web.svg);
+   
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+ }
+    
+
+section {
+    padding:3% 3%;
+}
+.wrapper {
+    max-width: 1440px;
+    margin:0 auto;
+    height: 100%;  
+   
+}
+@font-face {
+  font-family: 'azo_sansblack';
+  src: url('azosans-black-webfont.woff2') format('woff2'),
+       url('azosans-black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+@font-face {
+  font-family: 'hey_octoberregular';
+  src: url('hey_october-webfont.woff2') format('woff2'),
+       url('hey_october-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'azo_sansregular';
+  src: url('azosans-regular-webfont.woff2') format('woff2'),
+       url('azosans-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+h1{
+    font-weight: 400;
+    font-family: $tittle-font;
+    text-transform: uppercase;
+    color: $light-color;
+    line-height: 4.9rem;
+    
+
+  }
+  
+  h2{
+    font-family: $main-font;
+    font-weight: 900;
+    font-size: 1.6rem;
+    line-height: 2.3rem;
+    letter-spacing: 0.09rem;
+    text-transform: uppercase;
+    color: $light-color;
+
+
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+}
+
+.titulo{
+  font-size: 6rem;
+  color: $light-color;
+  transform: rotate(-7.92deg);
+
+
+}
+
+
+@media (max-width: 350px) {
+    
+  .titulo{
+    font-size: 3rem;
+  }
+
+  h1{
+    line-height: 0.2rem;
+  }
+
+  h2{
+
+    font-size: 1rem;
+    line-height: 2rem;
+    letter-spacing: 0.05rem;
+  }
+}
+
+@media (min-width: 351px) and (max-width: 512px) {
+    
+  .titulo{
+    font-size: 4rem;
+    
+  }
+
+  h1{
+    line-height: 0.2rem;
+  }
+
+  h2{
+
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.05rem;
+  }
+}
+
+
+@media (min-width: 513px) and (max-width: 768px) {
+  .titulo{
+    font-size: 4rem;
+    
+  }
+
+  h1{
+    line-height: 5rem;
+  }
+
+  h2{
+
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+        
+}
+
